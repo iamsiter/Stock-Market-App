@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Stock Marker</string>
+    <string name='facebook_app_id'>533316713681098</string>
+    <string name='background_image'>backg.jpg</string>
+    <string name="title_activity_welcome_page">" "</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_start">StartActivity</string>
+    <string-array name="SortBy">
+        <item>Sort By</item>
+        <item>Default</item>
+        <item>Symbol</item>
+        <item>Price</item>
+        <item>Change</item>
+        <item> Change (%)</item>
+    </string-array>
+    <string-array name="IndicatorChoice">
+        <item>Price</item>
+        <item>SMA</item>
+        <item>EMA</item>
+        <item>RSI</item>
+        <item>STOCH</item>
+        <item>BBANDS</item>
+        <item>MACD</item>
+        <item>ADX</item>
+        <item>CCI</item>
+    </string-array>
+    <string-array name="OrderBy">
+        <item>Order</item>
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+    <string name="title_activity_stock">stockActivity</string>
+    <string name="tab_text_1">CURRENT</string>
+    <string name="tab_text_2">HISTORICAL</string>
+    <string name="tab_text_3">NEWS</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="notSaved">Stock has been removed from favourites.</string>
+    <string name="Saved">Stock has been added to favourites.</string>
+</resources>

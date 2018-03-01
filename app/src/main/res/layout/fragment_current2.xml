@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E8E8E8">
+        <LinearLayout
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_weight="5"
+                android:layout_marginEnd="9dp"
+                android:layout_marginStart="10dp"
+                android:text="Stock Details"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="9dp" />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"></View>
+
+            <ImageView
+                android:id="@+id/fbClick"
+                android:layout_width="0dp"
+                android:layout_height="41dp"
+                android:layout_weight="2"
+                android:clickable="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/facebook"
+
+                android:layout_marginRight="10dp" />
+
+            <ImageView
+                android:id="@+id/favClick"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="47dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/empty"
+                android:layout_marginRight="8dp" />
+
+
+        </LinearLayout>
+        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Stock Symbol"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="150dp"
+            android:id="@+id/Ssymbol"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+
+            android:textSize="16sp"/>
+    </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Last Price"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/Slast"
+                android:textColor="@color/black"
+                android:text=""
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Change"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:id="@+id/Schange"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginRight="5dp"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/Simage"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Timestamp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:id="@+id/Stime"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Open"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/Sopen"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Close"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/Sclose"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Day's Range"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/Sday"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Volume"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/Svolume"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#c0c0c0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                android:text="Indicators"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:textColor="@color/black"/>
+           <Spinner
+               android:layout_width="125dp"
+               android:layout_height="match_parent"
+               android:textAlignment="center"
+               android:textSize="19sp"
+               android:textColor="@color/black"
+               android:id="@+id/indicatorChoice">
+
+           </Spinner>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:text="Change"
+                android:id="@+id/indicatorChangeButton"
+                android:clickable="true"
+                />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBarCurrent"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/currentChart">
+
+        </WebView>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
